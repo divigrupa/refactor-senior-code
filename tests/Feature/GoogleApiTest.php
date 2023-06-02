@@ -73,7 +73,7 @@ class GoogleApiTest extends TestCase
         );
     }
 
-    private function googleApiInvalidResponses(): array
+    public static function googleApiInvalidResponses(): array
     {
         return [
             // Case
